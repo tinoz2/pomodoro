@@ -1,0 +1,65 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+div{
+    padding: 200px;
+    border: 2px solid white;
+}
+.timer1{
+    background-color: crimson;
+}
+.timer2{
+    background-color: darkslateblue;
+}
+.timer3{
+    background-color: cadetblue;
+}
+h2{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 900;
+    width: 200px;
+}
+button{
+    padding: 20px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: white;
+    cursor: pointer;
+}
+.button1{
+    color: green;
+}
+.button2{
+    color: red;
+}
+h1{
+    color: black;
+    font-size: 2rem;
+    font-weight: 100;
+}
+h2{
+    opacity: 0.1;
+}
+.timer-running {
+    animation: shine 1s infinite;
+}
+
+@keyframes shine {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
