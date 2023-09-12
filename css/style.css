@@ -7,7 +7,7 @@ main{
     justify-content: space-around;
     margin-top: 150px;
 }
-div{
+.div-container{
     padding: 200px;
     border: 2px solid white;
 }
@@ -61,5 +61,33 @@ h2{
     }
     100% {
         opacity: 1;
+    }
+}
+
+@media (max-width: 576px){
+    main{
+        display: block;
+        margin: 1rem;
+    }
+    .div-container{
+        padding: 1rem;
+        margin: 1rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    button{
+        padding: 10px;
+        margin: 10px;
+    }
+    .div-container-stats{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
     }
 }
